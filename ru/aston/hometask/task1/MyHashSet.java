@@ -1,10 +1,11 @@
 package aston.hometask.task1;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyHashSet<E> {
     private static final int DEFAULT_CAPACITY = 16;
-    private ArrayList<Node<E>> buckets;
+    private List<Node<E>> buckets;
 
     public MyHashSet() {
         this.buckets = new ArrayList<>(DEFAULT_CAPACITY);
